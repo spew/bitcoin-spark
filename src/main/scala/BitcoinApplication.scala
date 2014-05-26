@@ -18,7 +18,7 @@ class BitcoinApplication(configuration: ProgramConfiguration) {
           wallet().addKey(new ECKey());
       }
     }
-    if (configuration.networkName == "regtest") {
+    if (kit.getClass == RegTestParams.get().getClass) {
       kit.connectToLocalHost()
     }
     kit
