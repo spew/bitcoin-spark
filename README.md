@@ -1,3 +1,3 @@
-bitcoin-scala
+bitcoin-spark
 =============
-Hello, World! scala application which connects to the bitcoin network using bitcoin4j 
+Application for exploring the Bitcoin blockchain using Apache Spark
